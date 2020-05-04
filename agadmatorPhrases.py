@@ -1,4 +1,4 @@
-#AviationFreak / Alexander E. / PhysicsLover999
+#AviationFreak / PhysicsLover999
 #April 14, 2020
 
 from youtube_transcript_api import YouTubeTranscriptApi
