@@ -64,7 +64,7 @@ for x in range(len(phrases)):
                         foundMatch = True
                         startTime = transcript[z]["start"]
                         startTime = time.strftime('%M:%S', time.gmtime(startTime))
-                        if (indexNum, startTime, getCorrection(x)) not in moments:
+                        if (indexNum, startTime, getCorrection(x)) not in moments: #Verify the moment has not already been recorded - This seems to happen sometimes
                             moments.append((indexNum, startTime, getCorrection(x)))
                 indexNum -= 1
 
